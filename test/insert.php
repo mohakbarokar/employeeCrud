@@ -10,12 +10,8 @@
 <h2>Enter information regarding book</h2>
 <ul>
     <form name="insert" action="insert.php" method="POST" >
-        <li>Book ID:</li><li><input type="text" name="bookid" /></li>
-        <li>Book Name:</li><li><input type="text" name="book_name" /></li>
-        <li>Author:</li><li><input type="text" name="author" /></li>
-        <li>Publisher:</li><li><input type="text" name="publisher" /></li>
-        <li>Date of publication:</li><li><input type="text" name="dop" /></li>
-        <li>Price (USD):</li><li><input type="text" name="price" /></li>
+        <li>Employee ID:</li><li><input type="text" name="employeeid" /></li>
+        <li>Employee Name:</li><li><input type="text" name="employee_name" /></li>
         <li><input type="submit" /></li>
     </form>
 </ul>
