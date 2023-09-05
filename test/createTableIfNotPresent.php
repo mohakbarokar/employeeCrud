@@ -26,7 +26,7 @@ $tableExists = pg_fetch_result($tableExistsResult, 0);
 
 if ($tableExists === 'f') {
     // Table does not exist, so create it
-    $createTableQuery = "CREATE TABLE $tableName ( bookid integer, book_name text, author text, publisher text, dop text, price integer)";
+    $createTableQuery = "CREATE TABLE $tableName ( employeeid integer, employee_name text)";
 
     $createTableResult = pg_query($conn, $createTableQuery);
 
