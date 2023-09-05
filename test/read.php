@@ -25,7 +25,7 @@ if (!$result) {
 
 // Display the data in an HTML table
 echo "<table>";
-echo "<tr><th>ID</th><th>Name</th><th>Price</th></tr>";
+echo "<tr><th>ID</th><th>Name</th></tr>";
 
 while ($row = pg_fetch_assoc($result)) {
     echo "<tr>";
